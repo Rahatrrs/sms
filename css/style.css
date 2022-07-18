@@ -200,3 +200,32 @@ a.nav-item:active{
 .teacher-card{
     width: 260px;
 }
+.icon-section:hover{
+    color: blue;
+}
+.form-outline,
+.form-label,
+.btn-outline-light,
+.btn-floating{
+    color: rgb(255, 19, 184);
+}
+.form-control{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(255, 19, 184);
+    
+    width: 280px;
+    color: black;
+    transition: all .7s ease;
+    margin-right: 1px;
+    background-color: rgba(247, 246, 246, 0.614);
+}
+.form-control:focus{
+    outline: none;
+    color: rgb(255, 19, 184);
+}
+.form-control:hover{
+    outline: none;
+    transform: scale(1.1);
+}
