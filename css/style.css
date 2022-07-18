@@ -1,0 +1,199 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    margin-right: 10px;
+    
+
+    transition: all 0.7s ease;
+}
+ul li a{
+    color: rgb(255, 25, 209);
+    border-bottom: 2px solid rgb(255, 19, 184);
+    border-left: 100px;
+}
+.nav-link:active{
+    background-image: linear-gradient(to bottom,  pink , rgb(255, 19, 184));
+    border-radius: 0 20px 0 0px;
+    color: aliceblue;
+}
+.nav-item:hover{
+    transform: scale(1.1);
+    
+    background-image: linear-gradient(to bottom,  pink , rgb(255, 19, 184));
+    border-radius: 0 20px 0 0px;
+    color: aliceblue;
+}
+a.nav-item:active{
+    
+    
+    background-image: linear-gradient(to bottom,  pink , rgb(255, 19, 184));
+    border-radius: 0 20px 0 0px;
+    color: aliceblue;
+}
+.search-box{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(255, 19, 184);
+    height: 45px;
+    width: 280px;
+    color: black;
+    transition: all .7s ease;
+    margin-right: 1px;
+    background-color: rgba(247, 246, 246, 0.614);
+}
+.search-box:focus{
+    outline: none;
+    
+}
+.search-box:hover{
+    outline: none;
+    transform: scale(1.1);
+}
+.search-btn{
+    background-image: linear-gradient(to left,  rgb(247, 70, 247) , rgb(255, 19, 184));
+    width: 130px;
+    height: 45px;
+    border: none;
+    transition: all 0.7s ease;
+    color: black;
+    font-weight: 600;
+    border-radius: 0 8px 8px 0;
+
+}
+.search-btn:hover{
+    box-shadow: 0 0 3px rgb(255, 19, 184);
+    transform: scale(1.1);
+}
+.title{
+    color: rgba(252, 114, 254, 0.854);
+    font-size: 60px;
+}
+.rm-btn{
+    background-image: linear-gradient(to right,  rgb(249, 79, 198) , rgb(255, 19, 184));
+    color: white;
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 150px;
+    border-radius: 0 0 0 10px;
+    transition: all 0.7s ease;
+}
+.rm-btn:hover{
+    
+    box-shadow: 0 0 6px rgb(255, 19, 184);
+}
+.input-box{
+    align-items: center;
+    margin-top: 0;
+    margin-left: 150px;
+    width: 360px;
+}
+.submit{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.top-card{
+    margin-top: 0px;
+    padding: 17px;
+    opacity: 0.8;
+    height: 350px;
+}
+.bg-video{
+    
+    margin-top: -15px;
+    
+}
+.video-bg{
+    position: absolute;
+    height: 400px;
+    width: 1300px;
+    
+}
+.float-content{
+    position: relative;
+}
+.bg-video{
+    padding: 0;
+    margin: 0;
+}
+.admission{
+    margin-left: 180px;
+}
+@keyframes moveInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.left-content{
+    animation-name: moveInLeft;
+    animation-duration: 1.2s;
+}
+@keyframes moveInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(400px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.right-content{
+    animation-name: moveInRight;
+    animation-duration: 1.2s;
+}
+.right-nav{
+    animation-name: moveInRight;
+    animation-duration: 1.2s;
+}
+.left-nav{
+    animation-name: moveInLeft;
+    animation-duration: 1.2s;
+}
+.second-title{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 80px;
+    
+}
+
+.second-title p{
+    font-size: 18px;
+
+}
+.class-card img{
+    height: 157px;
+    padding: 5px;
+    transition: all 0.2s ease;
+    
+}
+.enroll{
+    border-radius: 0 8px 0 8px;
+}
+.class-card{
+    margin-bottom: 35px;
+    padding-bottom: 5px;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+.class-card:hover{
+    box-shadow: 0 0 10px rgb(255, 19, 184);
+}
+.class-card:hover + .class-card img{
+    transform: scale(1.1);
+}
+.second-title{
+    background-image: linear-gradient(to right, rgb(208, 3, 202), rgb(255, 19, 184));
+    border-radius: 20px 20px 0 0;
+    color: aliceblue;
+}
