@@ -197,3 +197,6 @@ a.nav-item:active{
     border-radius: 20px 20px 0 0;
     color: aliceblue;
 }
+.teacher-card{
+    width: 260px;
+}

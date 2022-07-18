@@ -146,7 +146,38 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quam!</p>
 </div>
 
-
+<div class="container">
+  <div class="row">
+  <?php
+        for($i=0; $i<8; $i++){ ?>
+        <div class="col-lg-3">
+            <div class="card class-card teacher-card">
+                <div class="image">
+                    <img src="1.jpg" alt="">
+                </div>
+                <div class="info d-flex align-items-center flex-column">
+                    <br>
+                    <h5 style="color:rgb(255, 19, 184);">Jhankar</h5>
+                    <p> <b>Specialised In:</b> CSS</p>
+                    <p> <b>Ratings:</b> 
+                    <i class="fas fa-star" style="color:#FDD017;"></i>
+                    <i class="fas fa-star" style="color:#FDD017;"></i>
+                    <i class="fas fa-star" style="color:#FDD017;"></i>
+                    <i class="fas fa-star" style="color:#FDD017;"></i>
+                    <i class="fas fa-star-half-alt" style="color:#FDD017;"></i>
+                  </p>
+                    
+                </div>
+                <div class="social d-flex justify-content-around">
+                  <a href=""><i class="fab fa-facebook-f" style="color:#00008B; font-size:25px"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in" style="color:#2B547E;font-size:25px"></i></a>
+                  <a href=""><i class="fab fa-stack-overflow" style="color:#FFA500;font-size:25px"></i></a>
+                </div>
+            </div>
+        </div>
+        <?php } ?>
+  </div>
+</div>
 
 <!-- MDB -->
 <script
